@@ -1,0 +1,39 @@
+.main {
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100vh;
+  /* border: 2px solid black; */
+}
+.left {
+  width: 20%;
+  background-color: rgb(49, 117, 49);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.left h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 10px;
+}
+.left a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  margin: 10px;
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+.right {
+  width: 80%;
+  padding: 10px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
